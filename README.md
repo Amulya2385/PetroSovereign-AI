@@ -118,16 +118,16 @@ The project uses a hybrid intelligence approach:
 2. **Rule-based logic** for operational thresholds, alert levels, and command interpretation.
 3. **Validation checks** to ensure model inputs and dashboard outputs remain clean and aligned.
 
-Classification engines are evaluated using metrics such as:
+Forecasting and estimation layers are evaluated using regression-oriented metrics where applicable.
+
+Risk detection engines are evaluated using classification metrics such as:
 
 - accuracy
 - precision
 - recall
 - F1-score
 
-Forecasting-related outputs are evaluated using regression-oriented metrics where applicable.
-
-The project avoids relying on one misleading overall accuracy score. Instead, each engine is evaluated according to its specific task and output type.
+The project avoids relying on one misleading overall accuracy score. Instead, each engine is evaluated according to its specific task, output type, and operational role in the final command intelligence pipeline.
 
 
 ## Final Command Intelligence
